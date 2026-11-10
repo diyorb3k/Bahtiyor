@@ -3,7 +3,7 @@ import type { Extra } from "@/lib/extra";
 export function Process({ e }: { e: Extra }) {
   const p = e.process;
   return (
-    <section className="relative py-16 sm:py-24">
+    <section className="relative overflow-x-clip py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gold">{p.eyebrow}</p>
         <h2 className="mt-4 text-4xl font-semibold tracking-tight text-white sm:text-5xl">{p.title}</h2>

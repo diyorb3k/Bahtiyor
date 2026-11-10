@@ -9,7 +9,7 @@ const videos = [
 
 export function VideoShowcase({ d }: { d: Dictionary }) {
   return (
-    <section id="videos" className="relative scroll-mt-24 py-16 sm:py-24">
+    <section id="videos" className="relative overflow-x-clip scroll-mt-24 py-16 sm:py-24">
       <div className="pointer-events-none absolute left-0 top-1/3 h-[420px] w-[420px] rounded-full bg-gold/10 blur-[120px]" />
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
         <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">

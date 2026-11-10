@@ -14,7 +14,7 @@ function Icon({ d }: { d: string }) {
 export function Contact({ lang, d, e }: { lang: Locale; d: Dictionary; e: Extra }) {
   const c = d.contact;
   return (
-    <section id="contact" className="relative scroll-mt-24 py-16 sm:py-24">
+    <section id="contact" className="relative overflow-x-clip scroll-mt-24 py-16 sm:py-24">
       <div className="pointer-events-none absolute bottom-0 left-1/2 h-[400px] w-[900px] -translate-x-1/2 rounded-full bg-gold/10 blur-[140px]" />
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
         <div className="max-w-2xl">

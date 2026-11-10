@@ -4,7 +4,7 @@ import { site } from "@/lib/site";
 
 export function About({ d }: { d: Dictionary }) {
   return (
-    <section id="about" className="relative scroll-mt-24 py-16 sm:py-24">
+    <section id="about" className="relative overflow-x-clip scroll-mt-24 py-16 sm:py-24">
       <div className="mx-auto grid max-w-6xl items-center gap-16 px-4 sm:px-6 lg:grid-cols-2">
         <div className="relative mx-auto w-full max-w-md">
           <div className="absolute -right-6 -top-6 h-40 w-40 rounded-full border border-gold/30" />

@@ -13,7 +13,7 @@ const spans = [
 
 export function Services({ d }: { d: Dictionary }) {
   return (
-    <section id="services" className="relative scroll-mt-24 py-16 sm:py-24">
+    <section id="services" className="relative overflow-x-clip scroll-mt-24 py-16 sm:py-24">
       <div className="bg-grid pointer-events-none absolute inset-0 opacity-60" />
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
         <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
