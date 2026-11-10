@@ -21,7 +21,7 @@ export function Hero({ d }: { lang: Locale; d: Dictionary }) {
             {d.hero.badge}
           </span>
 
-          <h1 className="mt-7 text-[2.75rem] font-semibold leading-[1.02] tracking-tight text-white sm:text-6xl lg:text-7xl">
+          <h1 className="mt-7 text-[2.2rem] min-[360px]:text-[2.75rem] font-semibold leading-[1.02] tracking-tight text-white sm:text-6xl lg:text-7xl">
             {d.hero.titleStart}{" "}
             <span className="text-gold-gradient italic">{d.hero.titleAccent}</span>
           </h1>
@@ -44,11 +44,11 @@ export function Hero({ d }: { lang: Locale; d: Dictionary }) {
             </a>
           </div>
 
-          <dl className="mt-14 grid max-w-lg grid-cols-3 gap-6 border-t border-white/10 pt-8">
+          <dl className="mt-14 grid max-w-lg grid-cols-3 gap-3 border-t sm:gap-6 border-white/10 pt-8">
             {d.hero.stats.map((s) => (
               <div key={s.label}>
                 <dt className="sr-only">{s.label}</dt>
-                <dd className="text-2xl font-semibold text-gold sm:text-3xl">{s.value}</dd>
+                <dd className="text-lg font-semibold text-gold min-[360px]:text-2xl sm:text-3xl">{s.value}</dd>
                 <p className="mt-1 text-xs leading-snug text-white/50">{s.label}</p>
               </div>
             ))}

@@ -140,7 +140,7 @@ export function BookingForm({ lang, d, e }: { lang: Locale; d: Dictionary; e: Ex
           ).map(([value, label]) => (
             <label
               key={value}
-              className={`cursor-pointer rounded-2xl border px-3 py-3 text-center text-sm font-medium transition ${
+              className={`cursor-pointer rounded-2xl border px-1 py-3 text-center text-xs font-medium whitespace-nowrap min-[360px]:px-3 min-[360px]:text-sm transition ${
                 channel === value
                   ? "border-gold bg-gold text-night"
                   : "border-white/10 text-white/70 hover:border-white/30"
