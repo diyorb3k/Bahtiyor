@@ -15,7 +15,7 @@ export function VideoGroup({ items, label }: { items: Item[]; label: string }) {
   };
 
   return (
-    <ul className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    <ul className="mt-14 grid justify-items-center gap-6 md:grid-cols-3">
       {items.map((v, i) => (
         <li
           key={v.src}

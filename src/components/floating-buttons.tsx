@@ -2,7 +2,7 @@ import { site } from "@/lib/site";
 
 export function FloatingButtons({ label }: { label: string }) {
   return (
-    <div className="fixed bottom-5 right-5 z-40 hidden flex-col items-end gap-2.5 md:flex">
+    <div className="fixed bottom-5 right-5 z-40 hidden flex-col items-end gap-2.5 lg:flex">
       <a
         href={site.telegram}
         target="_blank"
